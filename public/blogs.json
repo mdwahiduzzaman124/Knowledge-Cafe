@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "cover_photo_url": "https://i.ibb.co.com/yFHxhbVt/1.jpg",
+    "title": "How to get your first job as a self-taught programmer",
+    "author_name": "Aiden Clarke",
+    "author_photo_url": "https://i.ibb.co.com/cK6VJ5DJ/boy1.png",
+    "posted_date": "November 10, 2025",
+    "reading_time_minutes": 6,
+    "hashtags": ["#productivity", "#focus", "#selfimprovement"]
+  },
+  {
+    "id": 2,
+    "cover_photo_url": "https://i.ibb.co.com/HLmmjQtR/2.png",
+    "title": "How to get your first job as a self-taught programmer",
+    "author_name": "Lena Martinez",
+    "author_photo_url": "https://i.ibb.co.com/Y7189dry/boy2.jpg",
+    "posted_date": "October 22, 2025",
+    "reading_time_minutes": 8,
+    "hashtags": ["#webdev", "#javascript", "#reactjs"]
+  },
+  {
+    "id": 3,
+    "cover_photo_url": "https://i.ibb.co.com/vvhbMGY1/3.png",
+    "title": "How to get your first job as a self-taught programmer",
+    "author_name": "Noah Bennett",
+    "author_photo_url": "https://i.ibb.co.com/wrr7Nsnd/girl1.jpg",
+    "posted_date": "September 14, 2025",
+    "reading_time_minutes": 5,
+    "hashtags": ["#design", "#uidesign", "#ux"]
+  },
+  {
+    "id": 4,
+    "cover_photo_url": "https://i.ibb.co.com/q3ktmMv6/4.jpg",
+    "title": "How to get your first job as a self-taught programmer",
+    "author_name": "Sofia Patel",
+    "author_photo_url": "https://i.ibb.co.com/6RY3h00g/girl2.jpg",
+    "posted_date": "August 30, 2025",
+    "reading_time_minutes": 7,
+    "hashtags": ["#gaming", "#brainpower", "#technology"]
+  }
+]
