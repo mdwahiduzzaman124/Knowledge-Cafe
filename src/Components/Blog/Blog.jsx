@@ -1,8 +1,9 @@
-import React from "react";
+
 import PropTypes from "prop-types";
 import { CiBookmarkCheck } from "react-icons/ci";
-const Blog = ({ blog, handleBookmarkEvent,handleTimeEvent }) => {
+const Blog = ({ blog, handleBookmarkEvent, handleTimeEvent }) => {
   const {
+    id,
     cover_photo_url,
     title,
     author_name,
@@ -55,7 +56,7 @@ const Blog = ({ blog, handleBookmarkEvent,handleTimeEvent }) => {
       <div className="text-left mb-10">
         <button
           className="text-2xl font-semibold text-[#6047EC] underline"
-          onClick={() => handleTimeEvent(reading_time_minutes)}
+          onClick={() => handleTimeEvent(reading_time_minutes, id)}
         >
           Mark as read
         </button>
@@ -64,6 +65,10 @@ const Blog = ({ blog, handleBookmarkEvent,handleTimeEvent }) => {
   );
 };
 
-Blog.propTypes = {};
+Blog.propTypes = {
+  blog: PropTypes.object.isRequired,
+  handleBookmarkEvent: PropTypes.func.isRequired,
+  handleTimeEvent: PropTypes.func.isRequired,
+};
 
 export default Blog;

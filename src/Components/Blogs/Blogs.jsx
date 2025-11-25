@@ -28,6 +28,9 @@ const Blogs = ({ handleBookmarkEvent, handleTimeEvent }) => {
   );
 };
 
-Blogs.propTypes = {};
+Blogs.propTypes = {
+  handleBookmarkEvent: PropTypes.func.isRequired,
+  handleTimeEvent: PropTypes.func.isRequired,
+};
 
 export default Blogs;
